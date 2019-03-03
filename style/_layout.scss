@@ -1,0 +1,30 @@
+/***resets**/
+body, html{
+    height: 100%;
+}
+body, html, h1{
+    margin: 0;
+    padding: 0;
+}
+body, button, label{
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+}
+strong {
+    font-weight: 600;
+}
+
+
+/**general***/
+
+body{
+    background: $gray-block;
+}
+.disabled-btn{
+    font-weight:bold;
+    font-size:initial;
+    color:$white !important;
+    text-transform: none;
+    pointer-events: none;
+    background-color: $btn-disabled;
+}

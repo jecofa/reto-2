@@ -1,0 +1,33 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: $bg-modal;
+    z-index: 9;
+    &__modal {
+        width: 80%;
+        height: 50%;
+        background-color: $white;
+      }
+  }
+  .modal-open{
+     color: $blue-light;
+     background:$white;
+     border: 0px;
+     outline: 0px;
+     text-transform: none;
+     font-size:18px;
+     transition: all ease 0.2s;
+     cursor: pointer;
+     &:hover, &:focus{
+         background: $white;
+         color: $blue-dark
+     }
+  }

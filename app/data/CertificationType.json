@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Tipo 1",
+        "type":"Básico",
+        "detail": "(incluye: datos básicos personales, número de producto y fecha de apertura)."
+    },
+    {
+        "name": "Tipo 2",
+        "type":"Básico + Saldo medio",
+        "detail": ""
+    },
+    {
+        "name": "Tipo 3",
+        "type":"Básico + Saldo a la fecha.",
+        "detail": ""
+    }
+]   

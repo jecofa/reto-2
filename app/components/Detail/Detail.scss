@@ -1,0 +1,15 @@
+.product-detail{
+    .product-border{
+        border-bottom: 1px solid #797979;
+        height: 50px;
+        width: 80%;
+        margin: 15px auto 15px auto;
+        .product-edit-gray{
+            color: $gray-dark;
+        }
+        .product-edit-green{
+            color: $green;
+        }
+    }
+
+}

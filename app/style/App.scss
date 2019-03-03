@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+
+/*
+/**style site general
+/**/
+@import './var';
+@import './layout';
+@import './step-one';
+@import './Button';
+@import './Modal';
+
+/*
+/*Components
+/**/
+@import './../components/Tabs/Tabs';
+@import './../components/Header/Header';
+@import './../components/TipoProducto/TipoProducto';
+@import './../components/TipoCertificado/TipoCertificado';
+@import './../components/Detail/Detail';

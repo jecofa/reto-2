@@ -1,0 +1,67 @@
+.react-tabs {
+    -webkit-tap-highlight-color: transparent;
+  
+    &__tab-list {
+      margin: 0 0 10px;
+      padding: 0;
+    }
+  
+    &__tab {
+      display: inline-block;
+      border: 1px solid transparent;
+      border-bottom: none;
+      bottom: -1px;
+      position: relative;
+      list-style: none;
+      padding: 50px 12px;
+      cursor: pointer;
+      font-weight: bold;
+        &:before{
+            content: "";
+            background: url('./../assets/certification-white.png') no-repeat center;
+            display: block;
+            height:50px;
+            width: 50px;
+            margin: 0 auto;
+        }
+        &--selected {
+            color: $blue-dark;
+            border-radius: 5px 5px 0 0;
+            &:before{
+                content: "";
+                background: url('./../assets/certification-blue-dark.png') no-repeat center;
+                display: block;
+                height:50px;
+                width: 50px;
+                margin: 0 auto;
+            }
+      }
+  
+      &--disabled {
+        color: GrayText;
+        cursor: default;
+      }
+  
+      &:focus {
+        outline: none;
+  
+        &:after {
+          content: "";
+          position: absolute;
+          height: 5px;
+          left: -4px;
+          right: -4px;
+          bottom: -5px;
+          background: $white;
+        }
+      }
+    }
+  
+    &__tab-panel {
+      display: none;
+  
+      &--selected {
+        display: block;
+      }
+    }
+  }

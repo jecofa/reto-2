@@ -1,0 +1,30 @@
+.producto-lista{
+    background: $white;
+    label{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px 20px 0;
+        margin: 20px 80px;
+        border-bottom: 1px solid $gray;
+        .producto-lista-cont{
+            img{
+                vertical-align: top;
+                margin-right: 10px;
+            }
+            span {
+                position: relative;
+                cursor: pointer;
+                display: inline-block;
+                height: 25px;
+                font-size: initial;
+                color: $black;
+                -webkit-transition: .28s ease;
+                transition: .28s ease;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.header{
+    background: $blue-dark;
+    color: $white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content:space-between;
+    padding: 0 70px;
+    h1{
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
